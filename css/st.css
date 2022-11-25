@@ -1,0 +1,134 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=Roboto+Condensed:wght@300&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 60px;
+    font-family: 'Lora', serif;
+}
+h2{
+    font-size: 40px;
+    color: #7D0800;
+    text-align: center;
+}
+h3{
+    margin-top: 50px;
+    color: #0A9696;
+
+}
+p{
+    font-size: 18px;
+
+}
+span{
+    color: #0A9696;
+}
+.btn {
+    background:#0A9696;
+    font-size: 18px;
+    color: #fff;
+}
+
+/* END NAVBAR */
+#home{
+    height: 100%;
+ } 
+ 
+#trusted-company{
+    background: #0a96968e;
+}
+#trusted-company.swiper {
+    width: auto;
+    height: auto;
+}
+
+#trusted-company.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+index #trusted-company.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#trusted-company h2{
+    margin-top: 40px;
+}
+#trusted-company img{
+    margin-bottom: 20px;
+}
+
+ #about-us h2{
+        margin-top: 30px;
+    }
+
+
+
+#amazing-developer-team{
+    background: #1fb3b375; 
+ 
+}
+#amazing-developer-team img{
+    margin-bottom: 40px;
+    margin-right: 50px;
+}
+#amazing-developer-team h3{
+    color: #7D0800;
+}
+#why-us h2{
+margin-bottom: 20px;
+}
+
+#banner{
+    background: #1fb3b375;
+}
+ main #banner p{
+text-align: center;
+font-size: 25px;
+}
+main #banner img{
+    
+}
+
+
+footer #footer{
+    background: #0A9696;
+    color: #fff;
+    font-size: 20px;
+}
+footer #footer ul li a{
+    color: #fff;
+}
+footer #footer .icon{
+    color: #fff;
+}
+#footer a{
+    color: #fff;
+}
+
+
+ 
