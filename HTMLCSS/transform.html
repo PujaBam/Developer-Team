@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        width: 200px;
+        height: 200px;
+        background: red;
+        transition-duration: 0.9s;
+        transition-delay: 2s;
+      }
+      .box:hover {
+        width: 400px;
+      }
+      .box1 {
+        width: 200px;
+        height: 200px;
+        background: blue;
+        transition-duration: 0.09s;
+        transform-origin: 20px top;
+      }
+      .box1:hover {
+        transform: rotate(180deg);
+      }
+      .box2 {
+        width: 200px;
+        height: 200px;
+        background: green;
+        transition-duration: 0.09s;
+        transform-origin: 20px top;
+      }
+      .box2:hover {
+        transform: skew(40deg, 30deg);
+      }
+      .box3 {
+        width: 200px;
+        height: 200px;
+        background: green;
+        transition-duration: 0.09s;
+        transform-origin: 20px top;
+        transform-origin: left top;
+      }
+      .box3:hover {
+        transform: scale(2, 3);
+      }
+      .box4 {
+        width: 200px;
+        height: 200px;
+        background: green;
+        transition-duration: 0.09s;
+        transform-origin: 20px top;
+        transform-origin: left top;
+      }
+      .box4:hover {
+        transform: translate(200px, 50px);
+      }
+      .all {
+        width: 200px;
+        height: 200px;
+        background: orange;
+        transition: 0.9s;
+      }
+      .all:hover {
+        transform: rotate(40deg) scale(2) translate(100px, 100px);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">AAA</div>
+    <div class="box1">BBB</div>
+    <div class="box2">PP</div>
+    <div class="box3">BB</div>
+    <div class="box4">PB</div>
+    <div class="div">all</div>
+  </body>
+</html>

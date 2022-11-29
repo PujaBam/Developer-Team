@@ -82,9 +82,11 @@ index #trusted-company.swiper-slide img {
     margin-bottom: 20px;
 }
 
- #about-us h2{
-        margin-top: 30px;
-    }
+#about-us h3{
+    color: #9CB647;
+
+}
+        
 
 
 
@@ -92,10 +94,7 @@ index #trusted-company.swiper-slide img {
     background: #1fb3b375; 
  
 }
-#amazing-developer-team img{
-    margin-bottom: 40px;
-    margin-right: 50px;
-}
+
 #amazing-developer-team h3{
     color: #7D0800;
 }
@@ -110,10 +109,6 @@ margin-bottom: 20px;
 text-align: center;
 font-size: 25px;
 }
-main #banner img{
-    
-}
-
 
 footer #footer{
     background: #0A9696;
@@ -127,8 +122,141 @@ footer #footer .icon{
     color: #fff;
 }
 #footer a{
+    color: #fff;
+}
+
+/* Contact-US */
+
+#contact-us .icons i{
+    font-size: 30px;
+    margin-right: 20px;
+    
+}
+#contact-us .icons{
+    list-style: none;
+    margin-top: 20px;
+}
+#contact-us .icons .messanger i{
+    color: #00B2FF;
+    
+}
+#contact-us .icons .whatsapp i{
+    color:#25D366;
+    
+}
+#contact-us .icons .facebook i{
+    color:#4267B2;
+
+} 
+#contact-us .icons .instagram i{
+    color: #E4405F;
+
+}
+
+/* BLOG HTML */
+#blog h4{
+    margin-top: 20px;
+    text-align: center;
     color: #7D0800;
+
+}
+#blog p{
+    margin-top: 20px;
+    padding: 20px;
+}
+#blog btn{
+    margin-bottom: 20px;
 }
 
 
- 
+/* CONTENT-MARKETING-BLOG1 */
+
+#content-writer-blog1 h3{
+
+    color: #7D0800;
+} 
+
+#content-writer h4{
+    margin-top: 30px;
+    color: #0A9696;
+    
+}
+#content-writer-blog1 p{
+margin-top: 40px;
+}
+
+#content-writer-blog1{
+        background: #1fa4a45b; 
+    }
+#content-writer-form label{
+    margin-top: 20px;
+}
+/* ACCOUNT-BASED-MARKETING-BLOG2 */
+
+#account-based-marketing h4{
+    margin-top: 30px;
+    color: #0A9696;
+}
+#account-based-marketing-blog1 h3{
+    color: #7D0800;
+}
+#account-based-marketing-blog1 p{
+    margin-top: 30px;
+}
+#account-based-marketing-blog1{
+    background: #1fa4a45b;
+}
+#account-based-marketing-form p{
+    margin-top: 40px;
+}
+    #account-based-marketing-form label{
+        margin-top: 20px;
+    }
+
+
+/* MARKETING-COLABRATION-BLOG3 */
+
+#marketing-colabration h4{
+    margin-top: 30px;
+    color: #0A9696;
+}
+#marketing-colabration-blog1{
+    background: #1fa4a45b;
+}
+#marketing-colabration-blog1 h3{
+    margin-top: 50px;
+    color: #7D0800;
+}
+#marketing-colabration-blog1 p{
+margin-top: 40px;
+}
+#marketing-colabration-form p{
+ margin-top: 40px;
+}
+#marketing-colabration-form label{
+    margin-top: 20px;
+}
+
+
+/* career html */
+
+
+#career .career form .btn{
+    margin-top: 10px;
+}
+#career .career h3{
+    margin-top: 100px;
+}
+#career .job-vacancy .job{
+    border: 1px solid #7D0800;
+}
+#career .job-vacancy .job i{
+    font-size: 20px;
+    margin-left: 10px;
+    
+}
+#career .job-vacancy .recent-job{
+    background: #F8F8F8;
+  
+    
+} 

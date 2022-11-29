@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .circle {
+        height: 400px;
+        width: 400px;
+        background: #bbb;
+        border-radius: 50%;
+        position: relative;
+        margin: 100px;
+        animation: ss 3s infinite;
+        /* display: inline-block; */
+      }
+      .small{
+        width: 60%;
+        height: 60%;
+        border: 2px solid #000000;
+        position: absolute;
+        border-radius: 50%;
+      
+      }
+      @keyframes ss{
+        0%{transform: rotate(0deg);}
+        100%{transform: rotate(360deg);}
+      }
+    </style>
+  </head>
+  <body>
+    <div class="circle">
+      <div class="small"></div>
+    </div>
+  </body>
+</html>
