@@ -7,7 +7,7 @@ body{
 /* navbar start*/
 .navbar-expand-lg{
     font-weight: bold;
-     background-color:#0A9696 !important;
+     background-color:#fff !important;
 }
 .navbar-expand-lg img{
 background: none;
@@ -20,7 +20,7 @@ background: none;
     margin-right: 70px !important;
 } 
 .navbar li a{
-    color: #fff !important;
+    color: #000 !important;
     font-size: 20px;
 }
 .dropdown-menu :hover {

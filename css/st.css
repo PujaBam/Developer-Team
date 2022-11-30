@@ -9,14 +9,16 @@
 }
 
 h1{
-    font-size: 60px;
+    font-size: 40px;
     font-family: 'Lora', serif;
 }
-h2{
+/* h2{
     font-size: 40px;
     color: #7D0800;
-    text-align: center;
-}
+    text-align: center; */
+
+
+
 h3{
     margin-top: 50px;
     color: #0A9696;
@@ -39,87 +41,82 @@ span{
 #home{
     height: 100%;
  } 
+ #home h1{
+    font-size: 50px;
+margin-top: 20px;
+ }
+ #home h2{
+    font-size: 30px;
+    margin-top: 20px;
+
+  }
+   #home .input-group{
+margin-top: 50px;
+ } 
  
-#trusted-company{
-    background: #0a96968e;
-}
-#trusted-company.swiper {
-    width: auto;
-    height: auto;
-}
+ #home input-group{
+    margin-top: 50px;
+ }
 
-#trusted-company.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    
-
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-}
-
-
-index #trusted-company.swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-#trusted-company h2{
-    margin-top: 40px;
-}
-#trusted-company img{
-    margin-bottom: 20px;
-}
-
-#about-us h3{
-    color: #9CB647;
-
-}
-        
-
-
-
+ 
 #amazing-developer-team{
     background: #1fb3b375; 
  
 }
+#service {
+    background: #1fb3b375;
+    height: 100%;
+}
+#service h3{
+    color: #000;
+}
+#service{
+    list-style: none;
+}
+
 
 #amazing-developer-team h3{
     color: #7D0800;
 }
+
 #why-us h2{
 margin-bottom: 20px;
 }
-
-#banner{
+#form textarea{
+    margin-top: 20px;
+}
+#communicate-email{
     background: #1fb3b375;
 }
+#portfolio{
+    background:#1fb3b375;
+}
+#portfolio p{
+    
+    color: #000;
+}
+#portfolio h2{
+    color: #000;
+}
+/* .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   } */
+
  main #banner p{
 text-align: center;
 font-size: 25px;
 }
 
 footer #footer{
-    background: #0A9696;
-    color: #fff;
+    background: #fff;
+    color: #000;
     font-size: 20px;
 }
 footer #footer ul li a{
-    color: #fff;
+    color: #000;
 }
 footer #footer .icon{
-    color: #fff;
+    color: #000;
 }
 #footer a{
     color: #fff;
@@ -259,4 +256,23 @@ margin-top: 40px;
     background: #F8F8F8;
   
     
+}
+#counter{
+    background: #1fa4a45b;
+}
+#counter span{
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    position: relative;
 } 
+#counter .count-1{
+    text-align: center;
+}
+#counter span::after{
+    content:"+";
+    position: absolute;
+    
+}
+
+
