@@ -36,18 +36,28 @@ span{
     font-size: 18px;
     color: #fff;
 }
+.fixed-whatsapp {
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+    border: none;
+    background: none;
+    background: #25D366;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 30px;
+}
+
 
 /* END NAVBAR */
-#home{
-    height: 100%;
- } 
+
  #home h1{
     font-size: 50px;
 margin-top: 20px;
  }
  #home h2{
     font-size: 30px;
-    margin-top: 20px;
+    /* margin-top: 100px; */
 
   }
    #home .input-group{
@@ -73,6 +83,29 @@ margin-top: 50px;
 #service{
     list-style: none;
 }
+/* #home{
+    background-image:url("/img/landing\ page1.png");
+    height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin
+} */
+ #home img{
+    /* height: 200;
+    width: 400; */
+     position: relative;
+    width:100%;
+    height:700px;
+}
+#home .overlay{
+    position: absolute;
+    top:240px;
+    color:#fff;
+    
+    left:10%;
+    
+
+} 
 
 
 #amazing-developer-team h3{
