@@ -21,77 +21,13 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="sticky-top">
-      <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"
-            ><img
-              src="img/logo2.png"
-              class="img fluid"
-              height="60px"
-              width="60px"
-              alt=""
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-auto nav-fill w-50">
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle active"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  About Us
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="#">About Us</a>
-                  </li>
-                  <li><a class="dropdown-item" href="#">Our vision</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#"> Our Mission</a>
-                  </li>
-                </ul>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Teams</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="blog.html">Blogs</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Career</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Gallery</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
+    <my-header></my-header>
 
     <main id="career">
       <section class="career">
         <div class="container">
           <div class="row py-5 justify-content-center gap-5">
-            <div class="col-sm-12 col-lg-6">
+            <div class="col-12 col-lg-6">
               <h3>Find Your Dream Job</h3>
               <form>
                 <input
@@ -104,7 +40,7 @@
                 <button type="button" class="btn btn-primary">Find Jobs</button>
               </form>
             </div>
-            <div class="col-sm-12 col-lg-6">
+            <div class="col-12 col-lg-6">
               <img
                 height="200"
                 width="400"
@@ -123,7 +59,7 @@
         <div class="container">
           <div class="row py-5">
             <h3>Recent Vob Vacancy</h3>
-            <div class="job col-sm-12 col-lg-8 p-5">
+            <div class="job col-12 col-lg-8 p-5">
               <div class="d-flex justify-content-between">
                 <h4>CubixTech Nepal</h4>
                 <img
@@ -421,59 +357,11 @@
         </div>
       </section>
     </main>
-
+    <my-footer></my-footer>
     <!-- END MAIN -->
+    <script src="header.js"></script>
+    <script src="footer.js"></script>
 
-    <footer>
-      <div id="footer">
-        <div class="container">
-          <div class="row py-5">
-            <div
-              class="col-12 col-lg-12 mb-md-0 d-flex justify-content-center align-item-center"
-            >
-              <div>
-                <ul class="list-unstyled mb-0 d-md-flex gap-4">
-                  <li>
-                    <a href="#"> Home</a>
-                  </li>
-                  <li>
-                    <a href="#">Aboutus</a>
-                  </li>
-
-                  <li>
-                    <a href="#">Websitedesign</a>
-                  </li>
-
-                  <li>
-                    <a href="#">App development</a>
-                  </li>
-                  <li>
-                    <a href="#">Content writing</a>
-                  </li>
-                  <li>
-                    <a href="#">SEO</a>
-                  </li>
-                </ul>
-                <h4 class="text-center pt-4">GET CONNECTED WITH US</h4>
-                <div class="d-flex gap-3 justify-content-center icons">
-                  <i class="bi bi-facebook"></i>
-                  <i class="bi bi-twitter"></i>
-                  <i class="bi bi-linkedin"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div
-          class="text-center p-3"
-          style="background-color: rgba(197, 192, 192, 0.2)"
-        >
-          © 2020 Copyright:
-          <a href="https://abcwebdevelopment.com/">Webdevelopment.com</a>
-        </div>
-      </div>
-    </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
     <script src="java.js"></script>

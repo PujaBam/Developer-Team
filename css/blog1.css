@@ -1,0 +1,21 @@
+header .blog {
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 0, 0, 0.607),
+      rgba(255, 255, 0, 0.29)
+    ),
+    url(../img/startup-g25aa7ef2a_1920.jpg);
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blog1 ul i {
+  margin-left: 15px;
+  font-size: 18px;
+}
+header .blog1 p {
+  margin-left: 20px;
+}
