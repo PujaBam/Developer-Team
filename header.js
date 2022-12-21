@@ -48,7 +48,7 @@ class Myheader extends HTMLElement {
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" href="project.html">Projects</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Teams</a>
