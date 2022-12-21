@@ -25,7 +25,7 @@ class Myheader extends HTMLElement {
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-auto gap-4 nav-fill w-50">
+            <ul class="navbar-nav ms-auto gap-4 nav-fill">
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle active"
